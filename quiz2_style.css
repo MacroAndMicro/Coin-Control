@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b3abf5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .quiz-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #b0f3ab;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 0;
+  }
+  
+  #question {
+    font-size: 18px;
+    margin-bottom: 20px;
+    animation: fade-in 1s ease-in;
+  }
+  
+  #options {
+    margin-bottom: 20px;
+  }
+  
+  #options button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    border: none;
+    border-radius: 5px;
+    text-align: left;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    animation: slide-up 1s ease-in;
+  }
+  
+  #options button:hover {
+    background-color: #fbf8a0;
+  }
+  
+  #explanation {
+    font-size: 14px;
+    color: #04088a;
+    margin-bottom: 20px;
+    animation: fade-in 1s ease-in;
+  }
+  
+  #previousButton,
+  #nextButton {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #055308;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    animation: fade-in 1s ease-in;
+  }
+  
+  #previousButton:hover,
+  #nextButton:hover {
+    background-color: #a8e910;
+  }
+  
+  #result {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+    animation: fade-in 1s ease-in;
+  }
+  
+  #score {
+    font-size: 16px;
+    text-align: center;
+    animation: fade-in 1s ease-in;
+  }
+  
+  @keyframes fade-in {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  @keyframes slide-up {
+    from { transform: translateY(20px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+  }
+  

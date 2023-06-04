@@ -1,0 +1,71 @@
+/* CSS for the Home Page */
+
+/* CSS for the Home Page */
+
+/* CSS for the Home Page */
+
+body {
+    background-color: #d7ecff;
+    font-family: Arial, sans-serif;
+    overflow-y: scroll; /* Add scrollbar to vertical overflow */
+  }
+  
+  .home-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Change height to min-height */
+  }
+  
+  .content {
+    text-align: center;
+    max-width: 800px;
+    padding: 20px; /* Add padding for better readability */
+    animation: fadeIn 1s ease;
+  }
+  
+  h1 {
+    color: #520ddc;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+
+  h2 {
+    color: #032632;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    color: #F6516E;
+    font-size: 24px;
+    margin-top: 40px;
+  }
+  
+  i {
+    font-style: italic;
+  }
+  
+  b {
+    font-weight: bold;
+  }
+  
+  p {
+    color: #333;
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
+  /* Animation Keyframes */
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

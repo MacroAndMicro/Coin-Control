@@ -1,0 +1,70 @@
+  
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Overall page styles */
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f6edc9;
+    color: #166805;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-family: cursive;
+    font-size: 48px;
+    margin-top: 30px;
+    color: #ff009d;
+  }
+  
+  h3 {
+    font-size: 24px;
+    margin-top: 20px;
+    font-style: italic;
+    animation: fade-in 1s ease-in-out;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  h2 {
+    font-size: 36px;
+    margin-top: 40px;
+    color: #fa00cc;
+    animation: slide-up 1s ease-in-out;
+    font-family: cursive;
+  }
+  
+  h4 {
+    font-size: 28px;
+    margin-top: 20px;
+    animation: fade-in 1s ease-in-out;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #01043c;
+    transition: color 0.3s ease;
+  }
+  
+  a:hover {
+    color: #00ff11;
+  }
+  
+  /* Animations */
+  @keyframes fade-in {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @keyframes slide-up {
+    0% { transform: translateY(20px); opacity: 0; }
+    100% { transform: translateY(0); opacity: 1; }
+  }
+  
+  /* Adjustments for spacing */
+  br {
+    margin-bottom: 20px;
+  }
+  
